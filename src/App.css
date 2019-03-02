@@ -1,0 +1,326 @@
+/* GLOBAL */
+
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  font-family: sans-serif;
+  font-weight:100;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar-container{
+  width:1200px;
+  height:60px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px auto;
+  font-weight:100;
+}
+
+.logo{
+  color: rgb(153, 153, 153);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-image{
+
+}
+
+.logo-text{
+  margin-left:16px;
+  font-size:22px;
+  font-weight:100;
+}
+
+.account{
+  color: #ccc;
+}
+
+.add-icon {
+  color: #FF3366 !important;
+  cursor: pointer;
+}
+
+/* APP CONTAINER */
+
+.app-container {
+  width:1200px;
+  display:flex;
+  height:600px;
+  border:1px solid #ccc;
+  margin:0px auto;
+}
+
+/* ACT MAP */
+
+.act-map{
+  width:300px;
+  height:600px;
+  border-right:1px solid #ccc;
+  position: relative;
+}
+
+.act-map-instructions{
+  height:60px;
+  display:flex;
+  align-items: center;
+  padding-left:24px;
+}
+
+.hover-label{
+  position: absolute;
+  font-size:16px;
+  box-shadow:0px 1px 1px 0px rgba(0,0,0,0.3);
+  padding:9px 12px;;
+  background: #c5f3bf;
+  max-width:90px;
+  text-align: center;
+
+}
+
+.gunghalin-label{
+  top:105px;
+  left:144px;
+}
+
+.belconnen-label{
+  top:163px;
+  left:60px;
+}
+
+.inner-north-label{
+  top:210px;
+  left:166px;
+}
+
+.inner-south-label{
+  top:290px;
+  left:150px;
+}
+
+.woden-label{
+  top:353px;
+  left:120px;
+}
+.weston-creek-label{
+  top:346px;
+  left:40px;
+}
+.tuggeranong-label{
+  top:462px;
+  left:90px;
+  min-width:140px !important;
+}
+.molonglo-label{
+  top:282px;
+  left:30px;
+}
+
+
+/* DATA GRID */
+
+.data-grid {
+  width:500px;
+  display:flex;
+  height:600px;
+  border-right:1px solid #ccc;
+
+}
+
+.progress-indicator-container{
+  width:500px;
+  display:flex;
+  height:300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-grid-container {
+ color:#333;
+ font-size:24px;
+}
+
+.row {
+  background-color: white;
+  color:red !important;
+  height:48px;
+}
+
+.row-header {
+  color:black;
+}
+
+.row-hover {
+  background-color: #eee;
+  font-weight:100 !important;
+  height:48px;
+
+}
+
+.cell-suburb{
+  width:200px;
+}
+
+/* PROPERTY PREVIEW */
+
+.property-preview{
+  width:400px;
+  height:600px;
+
+}
+
+.image-container{
+  width:400px;
+  height:300px;
+}
+
+.image{
+  width:400px;
+  height:300px;
+}
+
+
+
+/* GOOGLE MAP */
+
+.google-map-container{
+  padding:24px;
+
+}
+
+#map {
+  height:300px;
+  width:400px;
+}
+
+/* ADD FORM */
+
+.add-form-container{
+  max-width: 1200px;
+  min-width:1200px !important;
+  height:600px;
+}
+
+.add-form-content{
+  width:100%;
+  height:520px;
+  display:flex;
+}
+
+.add-form-details{
+  width:600px;
+  height:520px;
+  padding-top:18px;
+  padding-left:12px;
+}
+
+.add-property-title{
+  margin-left:12px;
+  font-size:24px;
+  font-weight:100;
+}
+
+.input-row {
+  display:flex;
+}
+
+.text-input{
+  margin:0px 12px;
+}
+
+.add-form-images{
+  width:600px;
+  height:520px;
+}
+
+.add-form-controls{
+  width:100%;
+  height:80px;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.add-form-cancel {
+  width:96px;
+  background: #ccc;
+  height:32px;
+  margin-right:24px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+}
+
+.add-form-save {
+  width:96px;
+  background: #afa;
+  height:32px;
+  margin-right:24px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-weight:400;
+  cursor: pointer;
+
+}
+
+.MuiDialog-paperWidthSm-9 {
+  max-width: 1200px;
+  min-width:1200px !important;
+}
+
+.dialog-container{
+  max-width: 'none';
+  min-width:1200px !important;
+}
+
+.add-form-images{
+  width:100%;
+  height:600px;
+  padding:24px;
+}
+
+.images-container{
+  border: 1px dashed #ccc;
+  height:88%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+input[type="file"] {
+  margin-top:16px;
+  display: inline-block;
+}
+
+/* MAP */
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height:300px;
+  background-color: white;
+}
+  
+
+
+
+
+
+
+
+
